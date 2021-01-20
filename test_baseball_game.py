@@ -234,13 +234,4 @@ class TestBaseballGame(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    t = TestBaseballGame()
-    t.test_is_digit()
-    t.test_is_between_100_and_999()
-    t.test_is_duplicated_number()
-    t.test_is_validated_number()
-    t.test_get_not_duplicated_three_digit_number()
-    t.test_get_strikes_or_ball()
-    t.test_is_yes()
-    t.test_is_no()
-    t.test_main()
+    unittest.main()
